@@ -1,0 +1,10 @@
+apps:
+  - script   : bot.js
+    instances: 1
+    exec_mode: cluster
+  - script : worker.js
+    watch  : true
+    env    :
+      NODE_ENV: development
+    env_production:
+      NODE_ENV: production
