@@ -9,7 +9,7 @@ I'm here to make your Discord easier and reliable!
 Lets get started with roles since Galaxy dosent say/or warn if you do not have perms to perform an action we need 3 ROLES which are MainOwner, Moderator, Muted.
 
 # MainOwner
-This role means that it has the ability to erform everything except for owner commands, you have to create this role YOURSELF and give it to yourself if your the guild owner!
+This role means that it has the ability to erform everything except for bot owner commands, you have to create this role YOURSELF and give it to yourself if your the guild owner!
 
 # Moderator
 This role has the ability to perform moderation commands but except owner commands ask the owner to create it and then give it to you.
