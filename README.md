@@ -18,5 +18,8 @@ This role has the ability to perform moderation commands but except owner comman
 This role is a regular role nothing but, mutes you if u perform a command or say something the mod, or owner can mute you if you have a naughty behaviour.
 
 
-Powered by Marquis Mariott Bots
-Developed by HasanBrandsXD#4120
+
+
+# If there's a downtime of the bot please inform the Execs. you can find them here: https://discord.gg/7bDRSbY
+-   Developed by HasanBrandsXD#4120  -
+=  Powered by Mariott Marquis Bots =
