@@ -1,5 +1,5 @@
 {
-  "name": "bitbot",
+  "name": "galaxy",
   "version": "1.0.0",
   "description": "A discord bot",
   "main": "bot.js",
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BitBangersCode/BitBot.git"
+    "url": "git+https://github.com/HasanBrandsXD/GalaxyBOT.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BitBangersCode/BitBot/issues"
+    "url": "https://github.com/HasanBrandsXD/GalaxyBOT/issues"
   },
-  "homepage": "https://github.com/BitBangersCode/BitBot#readme"
+  "homepage": "https://github.com/HasanBrandsXD/GalaxyBOT#readme"
 }
