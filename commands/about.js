@@ -11,12 +11,15 @@ exports.run = function(client, message, args) {
   embed.setThumbnail('https://cdn.discordapp.com/attachments/279965137908137986/300962159373058048/thPPL7H8TZ.jpg')
   embed.addField('Uptime in mili-seconds', `${client.uptime}`);
   embed.addField('Discriminator', 4924);
-  embed.addField('Guilds', 'Serving 124 guilds.')
-  embed.addField('Shard(s)', 'error')
-  embed.addField('Commands', '22')
-  embed.addField('Developers', 'HasanBrandsXD#4120, Scuzz#0709')
-  embed.addField(':copyright: JW Marquis Bots. All right reserved.', 'Marquis bots are a copyright to JW Marquis.')
+  embed.addField('Guilds', `${client.guilds.size}`)
+  embed.addField('Users <3', `${client.users.size}`)
+  embed.addField('Channels (galaxies <3)', `${client.channels.size}`)
+  embed.addField('Shard(s)', '[object Object]')
+  embed.addField('Commands', '29 -- API usen 5. ')
+  embed.addField('Developers', 'HasanBrandsXD#4120, Maya#9410')
+  embed.addField(':copyright: Mariott Marquis Bots 2016-17. All right reserved.', 'This is a :star: Mariott Bot and it is copyrighted to HasanBrandsXD#4120 with the association of JW Mariott Marquis Bots.')
   embed.addField('Made in Dubai, United Arab Emirates', 'Locations are subject to copyright.')
+  embed.setFooter('Galaxy Status')
   embed.setTimestamp()
 
   message.channel.sendEmbed(embed);

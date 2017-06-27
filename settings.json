@@ -1,8 +1,9 @@
 {
-  "token" : "FUCK NO",
+  "token" : "MjkwMDQ4MjM2NjU4NjIyNDY0.C6VP_g.Ma-Mu1TZKri2e7RgBQa4XSnRj3c",
+  "tmdbKey" : "bfbda859283f82c2083f9575cd8943ec",
   "prefix" : "&",
-  "mutrRoke" : "Muted",
-  "modrole":  "Moderator",
-  "adminrole" : "Admin",
+  "muterole" : "Muted",
+  "modrole":  "Mods",
+  "adminrole" : "GalaxyADMIN",
   "ownerid" : "255750690784149504"
 }

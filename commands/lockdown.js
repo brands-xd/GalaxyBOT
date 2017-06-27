@@ -1,9 +1,10 @@
 const ms = require('ms');
 exports.run = (client, message, args) => {
+  message.reply('Make sure you have the Mods role with `KICK_MEMBERS, BAN_MEMBERS, MANAGE_CHANNEL` perms before you begin with Galaxy Mod-Mode, to know who is your guild admin/owner try `&sinfo` & for more info type `roleinfo`')
   if (!client.lockit) client.lockit = [];
   let time = args.join(' ');
   let validUnlocks = ['release', 'unlock'];
-  if (!time) return message.reply('You must set a duration for the lockdown in either hours, minutes or seconds');
+  if (!time) return message.reply('Invalid parameters (`&lockdown (ms)`)');
 
   if (validUnlocks.includes(time)) {
     message.channel.overwritePermissions(message.guild.id, {

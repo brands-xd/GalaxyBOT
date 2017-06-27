@@ -1,5 +1,5 @@
 exports.run = function(client, message, args){
-  message.channel.sendMessage('Information viewed from `config.json` \nAdminRole: Bot Developer \nModRole: Moderator \n(You cannot edit the information viewed above. Only devs can.) \nIn order to moderate you need the Moderator role!`');
+  message.channel.sendMessage('Information viewed from `config.json` \nAdminRole: GalaxyADMIN \nModRole: Mods \nMuteRole: Muted \nDeathRole: Dead\n(You cannot edit the information viewed above. Only devs can.) \nIn order to moderate you need the Mods role!`');
 };
 
 exports.conf = {

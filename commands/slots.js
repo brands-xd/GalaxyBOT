@@ -1,6 +1,6 @@
 const slotAnswers = require('../slot.json');
 exports.run = function(client, message, args){;
-  message.channel.sendMessage(slotAnswers[Math.floor(Math.random() * 3) +1]);
+  message.channel.sendMessage(slotAnswers[Math.floor(Math.random() * 5) +1]);
 };
 
 exports.conf = {
@@ -11,7 +11,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'slot',
+  name: 'slots',
   description: 'Play slots in discod!',
   usage: '. . .'
 };
