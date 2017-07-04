@@ -20,6 +20,6 @@ This role is a regular role nothing but, mutes you if u perform a command or say
 
 
 
-# If there's a downtime of the bot please inform the Execs. you can find them here: https://discord.gg/BtpCabm or type &support-server in a guild where Galaxy is there.
+# If there's a downtime of the bot please inform the Execs. you can find them here: https://discord.gg/u9D6GQq or type &support-server in a guild where Galaxy is there.
 -  Developed by HasanBrandsXD#4120  -
 =  Powered by Mariott Marquis Bots =
