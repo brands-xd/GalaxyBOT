@@ -1,8 +1,7 @@
 exports.run = (client, message) => {
   message.channel.sendMessage('**Bringing the ball**')
     .then(msg => {
-      msg.edit(`Okay, _Pong!_ :ping_pong: (It took: ${msg.createdTimestamp - message.createdTimestamp}ms to bring the ball!)`);
-      message.author.addReaction(':ping_pong:')
+      msg.edit(`Okay, _Pong!_ :ping_pong: (It took: :signal_strength: ${msg.createdTimestamp - message.createdTimestamp}ms to bring the ball!)`);
     });
 };
 

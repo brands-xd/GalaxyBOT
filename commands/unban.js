@@ -1,4 +1,5 @@
 exports.run = (client, message, args) => {
+  message.reply('Make sure you have the Mods role with `KICK_MEMBERS, BAN_MEMBERS, MANAGE_CHANNEL` perms before you begin with Galaxy Mod-Mode, to know who is your guild admin/owner try `&sinfo` & for more info type `roleinfo`')
   let reason = args.slice(1).join(' ');
   client.unbanReason = reason;
   client.unbanAuth = message.author;
