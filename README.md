@@ -12,7 +12,7 @@ Galaxy needs *3* roles, you'll have to add the following roles:
 - Mods: This role is needed for the moderator commands you can view them by `&cmds` and search for the Moderators category.
 - GalaxyADMIN: This role is needed for Guild Owner commands you can view them by `&cmds` and search for the Guild Owner category.
 
-## Congratulations, you have setted up Galaxy!
+## Congratulations, you have now setup Galaxy!
 _Detailed help can be found in the Wiki by [Clicking here](https://github.com/HasanBrandsXD/GalaxyBOT/wiki/Commands---Setting-up-&-Doc)
 Help on commands, can be seen by `&cmds <command_name>`_
 
