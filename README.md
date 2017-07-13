@@ -1,4 +1,4 @@
-# Welcome to Galaxy's github!
+# GalaxyBOT | Start
 _Galaxy is a bot for Discord, which is easy to use._
 _Let's start with a start-up guide, see you there!_
 
