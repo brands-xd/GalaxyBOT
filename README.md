@@ -21,4 +21,10 @@ Help on commands, can be seen by `&cmds <command_name>`_
 *Made with love by HasanBrandsXD, credits can be viewed by `&credits`*
 
 
+# Commands
+
+Our commands can be viewed by `&cmds` or see the detailed help which can be viewed by [clicking here](https://github.com/HasanBrandsXD/GalaxyBOT/wiki/Commands---Setting-up-&-Doc)
+
+Keep in mind that Galaxy is NOT built for forking, or copying. None of our staff members are gonna help you, If you are please do credit HasanBrandsXD with the `&credits` command.
+
 (C) Copyright Galaxy Mariott! 2017. All right reserved.
