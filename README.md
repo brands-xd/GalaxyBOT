@@ -22,7 +22,7 @@ _Detailed help can be found in the Wiki by [Clicking here](https://github.com/Ha
 Help on commands, can be seen by `&cmds <command_name>`_
 
 *View the website by [clicking here](https://hasanbrandsxd.github.io/GalaxyBOT/)
-*You can join our support server by typing `&support-server.`*
+*You can join our support server by typing `&invite.`*
 *Made with love by HasanBrandsXD, credits can be viewed by `&credits`*
 
 
