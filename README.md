@@ -32,4 +32,10 @@ Our commands can be viewed by `&cmds` or see the detailed help which can be view
 
 Keep in mind that Galaxy is NOT built for forking, or copying. None of our staff members are gonna help you, If you are please do credit HasanBrandsXD with the `&credits` command.
 
+
+# Changelogs
+
+Update: Modlogs for your guild!
+Changelog description: Now have modlogs especially for your channel! Simply go to a channel which you want the modlogs to be viewed in then simply type `&modlog`!
+
 (C) Copyright Galaxy Mariott! 2017. All right reserved.
