@@ -13,7 +13,7 @@ Galaxy needs *3* roles, you'll have to add the following roles:
 - GalaxyADMIN: This role is needed for Guild Owner commands you can view them by `&cmds` and search for the Guild Owner category.
 
 ## _Step three: Checking Galaxy's permissions_
-You have to let Galaxy some needed permissions before using galaxy, as a matter of fact galaxy will reply with shit if you do not have the needed permissions:
+You have to let Galaxy some needed permissions before using galaxy, as a matter of fact galaxy will reply with shit if you do not have the needed permissions, Galaxy needs all perms from the invite link (`&invite`) If you remove a or alot perms from Galaxy it may have some error in some commands. Such as moderation, deleting/purging messages, etc.
 
 
 
