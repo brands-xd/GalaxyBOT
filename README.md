@@ -15,7 +15,7 @@ Galaxy needs *3* roles, you'll have to add the following roles:
 ## _Step three: Checking Galaxy's permissions_
 You have to let Galaxy some needed permissions before using galaxy, as a matter of fact galaxy will reply with shit if you do not have the needed permissions:
 
-image::https://images.discordapp.net/attachments/320128951311794188/337909154712780810/unknown.png[Permissions]
+
 
 ## Congratulations, you have now setup Galaxy!
 _Detailed help can be found in the Wiki by [Clicking here](https://github.com/HasanBrandsXD/GalaxyBOT/wiki/Commands---Setting-up-&-Doc)
