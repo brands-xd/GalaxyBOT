@@ -35,7 +35,10 @@ Keep in mind that Galaxy is NOT built for forking, or copying. None of our staff
 
 # Changelogs
 
-Update: Modlogs for your guild!
-Changelog description: Now have modlogs especially for your channel! Simply go to a channel which you want the modlogs to be viewed in then simply type `&modlog`!
+Update: Youtube Search!
+Changelog description: Tired of getting links of videos? Now just search for it! Simply type `&youtubesearch <song name>` to get the results of the video, copy the link and type `&add <yt url`> & &play to play the music, pretty cool huh?
 
-(C) Copyright Galaxy Mariott! 2017. All right reserved.
+
+# How to: Music
+
+Well, since HasanBrandsXD have added Youtube Search, how can I apply it in my `&play` and `&add` command? Well, its simple! Just type `&youtubesearch <song name>` to get the results of the video, once you have done that copy the youtube link from the second line of the YouTube search command embed. And type `&add <the link>` then simply type `&play` to play the music from the queue.
