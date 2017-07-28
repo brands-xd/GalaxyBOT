@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const yt = require('ytdl-core');
 const client = new Discord.Client();
 const fs = require('fs');
 const config = require('./settings.json');
