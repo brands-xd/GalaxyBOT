@@ -1,0 +1,29 @@
+const ytdl = require('ytdl-core');
+
+exports.run = (client, message, args) => {
+	if (!message.member.voiceChannel) return message.reply('Join a voice channel first');
+	
+	message.member.voiceChannel.join()
+		.then(connection => {
+			const stream = ytdl(args.join(' '), {
+				filter: 'audioonly'
+			});
+			const dispatcher = connection.playStream(stream);			
+			dispatcher.on('end', () => message.member.leave());
+		})
+		.then(console.log(`Playing music in ${message.guild.name}`))
+		.catch((error) => message.send(`Error\nSomething happened\n\`\`${error}\`\``));
+};
+
+exports.conf = {
+enabled: true,
+guildOnly: false,
+aliases: [],
+permLevel: 0
+};
+
+exports.help = {
+  name: 'play',
+  description: 'Play a song',
+  usage: 'play [song]'
+};
