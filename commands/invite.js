@@ -1,5 +1,8 @@
-exports.run = function(client, message, args){
-  message.channel.sendMessage('Invite me to your server: https://discordapp.com/oauth2/authorize?client_id=290048236658622464&scope=bot&permissions=2081946751 \n`[API] The link was updated successfully according to the CLIENT_ID (Discord Permissions)`');
+const Discord = require('discord.js');
+exports.run = function(client, message, args) {
+ message.channel.sendMessage('Aww, your inviting me? <3')
+ message.channel.sendMessage(`**Invite link**: https://discordapp.com/oauth2/authorize?client_id=290048236658622464&scope=bot&permissions=2081946751 \n**Support server**: https://discord.gg/u9D6GQq \n*Be sure to join the support server!*`)
+
 };
 
 exports.conf = {

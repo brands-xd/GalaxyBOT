@@ -1,11 +1,14 @@
 const snekfetch = require('snekfetch');
 const prettyLog = require('prettyconsole');
-exports.run = (client, msg) => {
-  msg.channel.sendMessage('Updated bots.discord.pw status for Galaxy | Error(s)  : - - -')
+exports.run = async (client, msg) => {
+    const guilds_size = await client.shard.broadcastEval("this.guilds.size").then(v => v.reduce((a, b) => a + b, 0))
     console.log('updates status');
     snekfetch.post(`https://bots.discord.pw/api/bots/290048236658622464/stats`)
-        .set('Authorization', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTU3NTA2OTA3ODQxNDk1MDQiLCJyYW5kIjoxNzMsImlhdCI6MTQ5NTM3NjE0NH0.eUmedfAOPaCymRXQUDBAlkSszMY8iJh3P070V1LkdlE')
-        .send({ server_count: client.guilds.size })
+        .set('Authorization', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOiIyNTU3NTA2OTA3ODQxNDk1MDQiLCJyYW5kIjo2NDMsImlhdCI6MTUwMTU5MjA1Nn0.y-IVLqomQP-UJfOv2u3xOL-qOpi1aTR-mQBYUeZDxso')
+        .send({
+            'server_count': guilds_size,
+            'shard_count': client.shard.count
+        })
         .then(console.log('Updated pwbots.org status.'))
 }
 

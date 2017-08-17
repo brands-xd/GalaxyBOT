@@ -1,12 +1,15 @@
 const snekfetch = require('snekfetch');
 const prettyLog = require('prettyconsole');
-exports.run = (client, msg) => {
-  msg.channel.sendMessage('Updated discordbots.org status for Galaxy | Error(s)  : - - -')
+exports.run = async (client, msg) => {
+    const guilds_size = await client.shard.broadcastEval("this.guilds.size").then(v => v.reduce((a, b) => a + b, 0))
     console.log('updates status');
     snekfetch.post(`https://discordbots.org/api/bots/290048236658622464/stats`)
-        .set('Authorization', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI1NTc1MDY5MDc4NDE0OTUwNCIsImlhdCI6MTQ5NDg1ODQxOH0.Qs3jXhqtuoYeClmX3MSyDtWA-9sJ5IafTecUm6CN0jE')
-        .send({ server_count: client.guilds.size })
-        .then(console.log('Updated dbots.org status.'))
+        .set('Authorization', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI1NTc1MDY5MDc4NDE0OTUwNCIsImlhdCI6MTUwMDM5NDY4MH0.xer0u8vQtKb8uog5I8y_QVenrbFecl-lFYdyhi9fl_c')
+        .send({
+            'server_count': guilds_size,
+            'shard_count': client.shard.count
+        })
+        .then(console.log('Updated pwbots.org status.'))
 }
 
 exports.conf = {

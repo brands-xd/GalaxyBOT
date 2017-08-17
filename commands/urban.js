@@ -15,16 +15,16 @@ exports.run = (client, msg, [search, resultNum]) => {
     const result = body.list[resultNum];
     if (result) {
       const definition = [
-        `**Word:** ${search}`,
+        `**Requested Word:** ${search}`,
         "",
-        `**Definition:** ${resultNum += 1} out of ${body.list.length}\n_${result.definition}_`,
+        `**Urban Defination:** ${resultNum += 1} out of ${body.list.length}\n_${result.definition}_`,
         "",
-        `**Example:**\n${result.example}`,
+        `**Examples of requested:**\n${result.example}`,
         `<${result.permalink}>`,
       ];
       msg.channel.sendMessage(definition).catch(err => client.funcs.log(err.stack, "error"));
     } else {
-      msg.channel.sendMessage("No entry found.").catch(err => client.funcs.log(err.stack, "error"));
+      msg.channel.sendMessage("404 | The requested word was not found in the Urban Dictionary").catch(err => client.funcs.log(err.stack, "error"));
     }
   });
 };

@@ -1,10 +1,12 @@
 exports.run = function(client, message, args) {
 const Discord = require('discord.js');
 let member = message.guild.member(message.mentions.users.first());
+    if (!args[0]){
+      return message.channel.sendMessage('[:x:] | **Please mention a user!**');
+    }
     var hug = new Discord.RichEmbed()
-      .setTitle('Awww, what a love story!')
       .setColor("#FFFF66")
-      .setDescription("**"+message.author.username+"** hugs <3 "+member+"")
+      .setDescription("Aww, **"+message.author.username+"** hugs "+member+"")
       .setImage("https://cdn.discordapp.com/attachments/320909154216706048/328086603471781888/giphy_4.gif");
 
     message.channel.sendEmbed(hug);

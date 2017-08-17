@@ -1,11 +1,14 @@
 exports.run = function(client, message, args) {
 const Discord = require('discord.js');
 let member = message.guild.member(message.mentions.users.first());
+    if (!args[0]){
+      return message.channel.sendMessage('[:x:] | **Please mention a user!**');
+    }
     var slap = new Discord.RichEmbed()
-      .setTitle('Slap! :o')
+      .setTitle("Someoene's showing anger here OwO")
       .setColor("0x00AE86")
-      .setDescription("**"+message.author.username+"** Just slapped "+member+"")
-      .setImage("https://cdn.discordapp.com/attachments/320909633990688769/327016088183373824/giphy_1.gif");
+      .setDescription("**"+message.author.username+"** slapped "+member+"")
+      .setImage("https://cdn.discordapp.com/attachments/344144728192974858/344919125937618944/giphy_3.gif");
 
     message.channel.sendEmbed(slap);
   };

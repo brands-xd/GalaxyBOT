@@ -1,11 +1,13 @@
 exports.run = function(client, message, args) {
 const Discord = require('discord.js');
 let member = message.guild.member(message.mentions.users.first());
+    if (!args[0]){
+      return message.channel.sendMessage('[:x:] | **Please mention a user!**');
+    }
     var pat = new Discord.RichEmbed()
-    .setTitle(`You've done a good job, my dear.`)
       .setColor("#FFFF66")
-      .setDescription("**"+message.author.username+"** pats  "+member+"")
-      .setImage("https://cdn.discordapp.com/attachments/320909154216706048/328090395147763712/giphy_6.gif");
+      .setDescription("**"+message.author.username+"** pats "+member+"")
+      .setImage("https://cdn.discordapp.com/attachments/336752911776219138/344055457196933120/giphy_2.gif");
 
     message.channel.sendEmbed(pat);
   };

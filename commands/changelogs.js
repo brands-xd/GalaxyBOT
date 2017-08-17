@@ -6,12 +6,12 @@ const yellow = '#FFD700';
 exports.run = function(client, message, args) {
   var embed = new Discord.RichEmbed();
   embed.setTitle('Galaxy Changelogs')
-  embed.setDescription(`Version 1.5.0`);
+  embed.setDescription(`!! Version 2.0.0 !!`);
   embed.setColor('10A854');
   embed.setThumbnail('https://cdn.discordapp.com/attachments/279965137908137986/300962159373058048/thPPL7H8TZ.jpg')
-  embed.addField(`New! | :100: The actions' update!`, 'New commands: `&tickle`, `&highfive`, `hug`, `pat`');
-  embed.addField(`Build Info`, `1.4.0 -> 1.5.0, ':white_check_mark: **Build was posted on Galaxy Process database on 12:35 PM (Arabian Standard Time) 24/6/17**`);
-  embed.addField('Developers', 'HasanBrandsXD#4120, Maya#9410')
+  embed.addField(`New! | Reminders!`, 'New commands: `&reminder`')
+  embed.addField('Changelog description:', 'Now Galaxy will remind you of certain things! For example `&reminder -d 10m30s Get back to work.`, to cancel the reminder type `&reminder --cancel`. Enjoy Galaxy!')
+  embed.addField(`Build Info`, `1.9.0_2 -> 2.0.0, ':white_check_mark: **Build was posted on Galaxy Process database on 3:46 PM (Arabian Standard Time) 28/7/17**`);
   embed.setFooter('Process Changelogs')
   embed.setTimestamp()
 
