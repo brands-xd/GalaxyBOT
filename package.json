@@ -3,9 +3,18 @@
   "version": "1.0.0",
   "description": "A discord bot",
   "main": "bot.js",
+  "engines": {
+    "node": "8.1.4"
+  },
   "dependencies": {
+    "chalk": "^2.0.1",
     "discord.js": "^11.0.0",
-    "request": "^2.79.0"
+    "kitsu.js": "^1.1.1",
+    "prettyconsole": "^1.0.0",
+    "request": "^2.79.0",
+    "return-deep-diff": "^0.2.7",
+    "snekfetch": "^3.2.4",
+    "table": "^4.0.1"
   },
   "devDependencies": {},
   "scripts": {
