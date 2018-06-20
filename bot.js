@@ -1,11 +1,11 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
+const { Client, Collection} = require('discord.js');
+const client = new Client();
 const fs = require('fs');
 const config = require('./settings.json');
 require('./util/eventLoader')(client);
 
-client.commands = new Discord.Collection();
-client.aliases = new Discord.Collection();
+client.commands = new Collection();
+client.aliases = new Collection();
 fs.readdir('./commands/', (err, files) => {
   if (err) console.error(err);
   files.forEach(f => {
