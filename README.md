@@ -1,3 +1,4 @@
+<iframe src="https://botsfordiscord.com/api/v1/bots/290048236658622464/embed" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
 # GalaxyBOT | Start
 ( M I T )
   M I T
