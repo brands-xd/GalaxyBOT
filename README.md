@@ -1,5 +1,5 @@
 [![Bots for discord](https://botsfordiscord.com/api/v1/bots/290048236658622464/embed?theme=dark)](https://botsfordiscord.com/bot/290048236658622464)
-[![Listcord](https://listcord.com/api/v1/bots/290048236658622464/embed?theme=dark)](https://listcord.com/bot/290048236658622464)
+[![Listcord](https://listcord.com/api/v1/bots/290048236658622464/)](https://listcord.com/bot/290048236658622464) 
 # GalaxyBOT | Start
 ( M I T )
   M I T
