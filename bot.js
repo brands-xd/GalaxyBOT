@@ -2,6 +2,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const fs = require('fs');
 const config = require('./settings.json');
+const Idiot = require("idiotic-api");
+client.API = new Idiot.Client('no', { dev: true });
 require('./util/eventLoader')(client);
 
 client.commands = new Discord.Collection();
