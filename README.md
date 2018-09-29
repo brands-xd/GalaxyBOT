@@ -1,7 +1,6 @@
 [![Bots for discord](https://botsfordiscord.com/api/v1/bots/290048236658622464/embed?theme=dark)](https://botsfordiscord.com/bot/290048236658622464)
 # GalaxyBOT | Start
-( M I T )
-  M I T
+
 Fast multipurpose bot with cool commands, stable music and cool features to offer. <3 Let's get started with Galaxy so you have a great time with her.
 
 ## Step one: Checking the ping
