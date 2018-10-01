@@ -15,7 +15,7 @@ To set up a greet channel go to the desired channel and type `&greet`, for greet
 ## Step four: Setting up a modlog channel
 Simply go to the desired channel and type `&modlog` which will enable modlog toggle.
 
-* To view a fancier version of this guide click [here](hasanbrandsxd.github.io/GalaxyBOT)
+
 
 # 👍 You have now setted up Galaxy, try `&cmds`
 ## Detailed help > Can be viewed in the Wiki you can view the *wiki* by [clicking here](https://github.com/HasanBrandsXD/GalaxyBOT/wiki/Commands---Setting-up-&-Doc)
